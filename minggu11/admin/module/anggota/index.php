@@ -58,7 +58,7 @@ j.id AND a.user_id = u.id order by a.id desc";
                                             aria-hidden="true"></i> Edit</a>
 
                                     <a href="fungsi/hapus.php?anggota=hapus&id=<?php echo
-                                                                                $row['user_id']; ?>" onclick="javascript:return confirm('Hapus Data Jabatan ?');" class="btn
+                                                                                $row['user_id']; ?>" onclick="javascript:return confirm('Hapus Data Anggota ?');" class="btn
 btn-danger btn-xs"><i class="fa fa-trash-o" aria-hidden="true"></i> Hapus</a>
 
                                 </td>
